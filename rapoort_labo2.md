@@ -4,23 +4,42 @@ Dessiner les diagrammes de classes simplifiés (sans spécifier les propriétés
 ### Médiatèques 
 Une application gère les emprunts de plusieurs médiathèques. Une médiathèque possède des médias (livres, bandes dessinées, cassettes vidéo, DVDs ou CDs) empruntables par les abonnés de celle-ci.
 
-![Diagram 1.1](images/1_1.svg)
+![Diagram 1.1](images/1_1.png)
+
+#### Explications des choix
+
 
 ### Pays
 Un pays est frontalier d’un certain nombre de pays.
 
+![Diagram 1.2](images/1_2.png)
+
+#### Explications des choix
+
 ### Garage
 Une application gère les réparations pour plusieurs garages. Un client demande la réparation d’un véhicule (voiture ou moto) à un garage. Chaque réparation est effectuée par un mécanicien et peut impliquer le remplacement d’une ou plusieurs pièces
+
+![Diagram 1.3](images/1_3.png)
+
+#### Explications des choix
 
 ### Paquebot
 Les cabines d’un paquebot d’une croisière sont occupées par des passagers, des guides, des animateurs ou du personnel naviguant. Les guides et les animateurs organisent des activités pour les passagers (visites de sites et animations sur le paquebot).
 
 NB: Modéliser les activités avec une classe
 
+![Diagram 1.4](images/1_4.png)
+
+#### Explications des choix
+
 ### Arbre généalogique
 Application d'arbre généalogique. Pour chaque individu on désire connaître: si c’est un homme ou une femme, ses parents, ses enfants et la liste de ses mariages éventuels.
 
 NB: Vous pouvez utiliser la définition de mariage votée le 26 septembre 2021 ou la définition d'avant
+
+![Diagram 1.5](images/1_5.png)
+
+#### Explications des choix
 
 ## Modélisation
 Définir les diagrammes de classes correspondant aux situations décrites ci-dessous.
@@ -42,6 +61,10 @@ Un éditeur souhaite réaliser une application pour traiter les informations sui
 - les droits d’auteur perçus par un auteur lors de la vente d’un livre sont définis comme un pourcentage du prix de vente et sont négociés entre l’auteur et l’éditeur pour chaque édition.
 - les librairies (caractérisées par leur nom et adresse complète) passent des commandes (caractérisées par leur numéro et date d’émission) auprès de l’éditeur d'un ou plusieurs livres.
 
+![Diagram 2.1](images/2_1.png)
+
+#### Explications des choix
+
 ### Ecole
 Une école souhaite réaliser une application permettant de gérer ses étudiants, son personnel et ses départements. Les informations suivantes sont récoltées:
 
@@ -56,3 +79,7 @@ Une école souhaite réaliser une application permettant de gérer ses étudiant
 - Il doit être possible d’obtenir le nom d’un groupe sous la forme <_orientation_><_trimestre d’études_>-<n° groupe> (par exemple, IL6-12).
 - Il doit être possible d’obtenir l’emploi du temps d’un groupe sous la forme d’une chaîne de caractères.
 - Il doit être possible d’obtenir l’emploi du temps d’un ensemble de leçons sous la forme d’une chaîne de caractères.
+
+![Diagram 2.2](images/2_2.png)
+
+#### Explications des choix
