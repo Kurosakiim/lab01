@@ -3,7 +3,8 @@
 Dessiner les diagrammes de classes simplifiés (sans spécifier les propriétés des classes mais en indiquant les héritages, les associations et leurs cardinalités) correspondant aux situations suivantes
 ### Médiatèques 
 Une application gère les emprunts de plusieurs médiathèques. Une médiathèque possède des médias (livres, bandes dessinées, cassettes vidéo, DVDs ou CDs) empruntables par les abonnés de celle-ci.
-[Diagramme 1](images/1_1.svg)
+
+![Diagram 1.1](images/1_1.svg)
 
 ### Pays
 Un pays est frontalier d’un certain nombre de pays.
